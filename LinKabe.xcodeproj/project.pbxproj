@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78C3E88623485A3C00FE9354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E88523485A3C00FE9354 /* AppDelegate.swift */; };
+		78C3E88823485A3C00FE9354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E88723485A3C00FE9354 /* SceneDelegate.swift */; };
+		78C3E88B23485A3C00FE9354 /* LinKabe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E88923485A3C00FE9354 /* LinKabe.xcdatamodeld */; };
+		78C3E88D23485A3C00FE9354 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E88C23485A3C00FE9354 /* ContentView.swift */; };
+		78C3E88F23485A3D00FE9354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C3E88E23485A3D00FE9354 /* Assets.xcassets */; };
+		78C3E89223485A3D00FE9354 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C3E89123485A3D00FE9354 /* Preview Assets.xcassets */; };
+		78C3E89523485A3D00FE9354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C3E89323485A3D00FE9354 /* LaunchScreen.storyboard */; };
+		78C3E8A023485A3E00FE9354 /* LinKabeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E89F23485A3E00FE9354 /* LinKabeTests.swift */; };
+		78C3E8AB23485A3E00FE9354 /* LinKabeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E8AA23485A3E00FE9354 /* LinKabeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78C3E89C23485A3E00FE9354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C3E87A23485A3C00FE9354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C3E88123485A3C00FE9354;
+			remoteInfo = LinKabe;
+		};
+		78C3E8A723485A3E00FE9354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C3E87A23485A3C00FE9354 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C3E88123485A3C00FE9354;
+			remoteInfo = LinKabe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78C3E88223485A3C00FE9354 /* LinKabe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinKabe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C3E88523485A3C00FE9354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78C3E88723485A3C00FE9354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		78C3E88A23485A3C00FE9354 /* LinKabe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LinKabe.xcdatamodel; sourceTree = "<group>"; };
+		78C3E88C23485A3C00FE9354 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		78C3E88E23485A3D00FE9354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78C3E89123485A3D00FE9354 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78C3E89423485A3D00FE9354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78C3E89623485A3D00FE9354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C3E89B23485A3E00FE9354 /* LinKabeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinKabeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C3E89F23485A3E00FE9354 /* LinKabeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinKabeTests.swift; sourceTree = "<group>"; };
+		78C3E8A123485A3E00FE9354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C3E8A623485A3E00FE9354 /* LinKabeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinKabeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C3E8AA23485A3E00FE9354 /* LinKabeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinKabeUITests.swift; sourceTree = "<group>"; };
+		78C3E8AC23485A3E00FE9354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78C3E87F23485A3C00FE9354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C3E89823485A3E00FE9354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C3E8A323485A3E00FE9354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78C3E87923485A3C00FE9354 = {
+			isa = PBXGroup;
+			children = (
+				78C3E88423485A3C00FE9354 /* LinKabe */,
+				78C3E89E23485A3E00FE9354 /* LinKabeTests */,
+				78C3E8A923485A3E00FE9354 /* LinKabeUITests */,
+				78C3E88323485A3C00FE9354 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78C3E88323485A3C00FE9354 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C3E88223485A3C00FE9354 /* LinKabe.app */,
+				78C3E89B23485A3E00FE9354 /* LinKabeTests.xctest */,
+				78C3E8A623485A3E00FE9354 /* LinKabeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C3E88423485A3C00FE9354 /* LinKabe */ = {
+			isa = PBXGroup;
+			children = (
+				78C3E88523485A3C00FE9354 /* AppDelegate.swift */,
+				78C3E88723485A3C00FE9354 /* SceneDelegate.swift */,
+				78C3E88C23485A3C00FE9354 /* ContentView.swift */,
+				78C3E88E23485A3D00FE9354 /* Assets.xcassets */,
+				78C3E89323485A3D00FE9354 /* LaunchScreen.storyboard */,
+				78C3E89623485A3D00FE9354 /* Info.plist */,
+				78C3E88923485A3C00FE9354 /* LinKabe.xcdatamodeld */,
+				78C3E89023485A3D00FE9354 /* Preview Content */,
+			);
+			path = LinKabe;
+			sourceTree = "<group>";
+		};
+		78C3E89023485A3D00FE9354 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				78C3E89123485A3D00FE9354 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78C3E89E23485A3E00FE9354 /* LinKabeTests */ = {
+			isa = PBXGroup;
+			children = (
+				78C3E89F23485A3E00FE9354 /* LinKabeTests.swift */,
+				78C3E8A123485A3E00FE9354 /* Info.plist */,
+			);
+			path = LinKabeTests;
+			sourceTree = "<group>";
+		};
+		78C3E8A923485A3E00FE9354 /* LinKabeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78C3E8AA23485A3E00FE9354 /* LinKabeUITests.swift */,
+				78C3E8AC23485A3E00FE9354 /* Info.plist */,
+			);
+			path = LinKabeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78C3E88123485A3C00FE9354 /* LinKabe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C3E8AF23485A3E00FE9354 /* Build configuration list for PBXNativeTarget "LinKabe" */;
+			buildPhases = (
+				78C3E87E23485A3C00FE9354 /* Sources */,
+				78C3E87F23485A3C00FE9354 /* Frameworks */,
+				78C3E88023485A3C00FE9354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinKabe;
+			productName = LinKabe;
+			productReference = 78C3E88223485A3C00FE9354 /* LinKabe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78C3E89A23485A3E00FE9354 /* LinKabeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C3E8B223485A3E00FE9354 /* Build configuration list for PBXNativeTarget "LinKabeTests" */;
+			buildPhases = (
+				78C3E89723485A3E00FE9354 /* Sources */,
+				78C3E89823485A3E00FE9354 /* Frameworks */,
+				78C3E89923485A3E00FE9354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C3E89D23485A3E00FE9354 /* PBXTargetDependency */,
+			);
+			name = LinKabeTests;
+			productName = LinKabeTests;
+			productReference = 78C3E89B23485A3E00FE9354 /* LinKabeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78C3E8A523485A3E00FE9354 /* LinKabeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C3E8B523485A3E00FE9354 /* Build configuration list for PBXNativeTarget "LinKabeUITests" */;
+			buildPhases = (
+				78C3E8A223485A3E00FE9354 /* Sources */,
+				78C3E8A323485A3E00FE9354 /* Frameworks */,
+				78C3E8A423485A3E00FE9354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C3E8A823485A3E00FE9354 /* PBXTargetDependency */,
+			);
+			name = LinKabeUITests;
+			productName = LinKabeUITests;
+			productReference = 78C3E8A623485A3E00FE9354 /* LinKabeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78C3E87A23485A3C00FE9354 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Crimson Yang";
+				TargetAttributes = {
+					78C3E88123485A3C00FE9354 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					78C3E89A23485A3E00FE9354 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 78C3E88123485A3C00FE9354;
+					};
+					78C3E8A523485A3E00FE9354 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 78C3E88123485A3C00FE9354;
+					};
+				};
+			};
+			buildConfigurationList = 78C3E87D23485A3C00FE9354 /* Build configuration list for PBXProject "LinKabe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78C3E87923485A3C00FE9354;
+			productRefGroup = 78C3E88323485A3C00FE9354 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78C3E88123485A3C00FE9354 /* LinKabe */,
+				78C3E89A23485A3E00FE9354 /* LinKabeTests */,
+				78C3E8A523485A3E00FE9354 /* LinKabeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78C3E88023485A3C00FE9354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C3E89523485A3D00FE9354 /* LaunchScreen.storyboard in Resources */,
+				78C3E89223485A3D00FE9354 /* Preview Assets.xcassets in Resources */,
+				78C3E88F23485A3D00FE9354 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C3E89923485A3E00FE9354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C3E8A423485A3E00FE9354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78C3E87E23485A3C00FE9354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C3E88B23485A3C00FE9354 /* LinKabe.xcdatamodeld in Sources */,
+				78C3E88623485A3C00FE9354 /* AppDelegate.swift in Sources */,
+				78C3E88D23485A3C00FE9354 /* ContentView.swift in Sources */,
+				78C3E88823485A3C00FE9354 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C3E89723485A3E00FE9354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C3E8A023485A3E00FE9354 /* LinKabeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C3E8A223485A3E00FE9354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C3E8AB23485A3E00FE9354 /* LinKabeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78C3E89D23485A3E00FE9354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78C3E88123485A3C00FE9354 /* LinKabe */;
+			targetProxy = 78C3E89C23485A3E00FE9354 /* PBXContainerItemProxy */;
+		};
+		78C3E8A823485A3E00FE9354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78C3E88123485A3C00FE9354 /* LinKabe */;
+			targetProxy = 78C3E8A723485A3E00FE9354 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78C3E89323485A3D00FE9354 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C3E89423485A3D00FE9354 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78C3E8AD23485A3E00FE9354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78C3E8AE23485A3E00FE9354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78C3E8B023485A3E00FE9354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LinKabe/Preview Content\"";
+				DEVELOPMENT_TEAM = 72G48B235Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LinKabe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maybe.LinKabe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78C3E8B123485A3E00FE9354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LinKabe/Preview Content\"";
+				DEVELOPMENT_TEAM = 72G48B235Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LinKabe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maybe.LinKabe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78C3E8B323485A3E00FE9354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72G48B235Q;
+				INFOPLIST_FILE = LinKabeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maybe.LinKabeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinKabe.app/LinKabe";
+			};
+			name = Debug;
+		};
+		78C3E8B423485A3E00FE9354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72G48B235Q;
+				INFOPLIST_FILE = LinKabeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maybe.LinKabeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinKabe.app/LinKabe";
+			};
+			name = Release;
+		};
+		78C3E8B623485A3E00FE9354 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72G48B235Q;
+				INFOPLIST_FILE = LinKabeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maybe.LinKabeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinKabe;
+			};
+			name = Debug;
+		};
+		78C3E8B723485A3E00FE9354 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72G48B235Q;
+				INFOPLIST_FILE = LinKabeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maybe.LinKabeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinKabe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78C3E87D23485A3C00FE9354 /* Build configuration list for PBXProject "LinKabe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C3E8AD23485A3E00FE9354 /* Debug */,
+				78C3E8AE23485A3E00FE9354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C3E8AF23485A3E00FE9354 /* Build configuration list for PBXNativeTarget "LinKabe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C3E8B023485A3E00FE9354 /* Debug */,
+				78C3E8B123485A3E00FE9354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C3E8B223485A3E00FE9354 /* Build configuration list for PBXNativeTarget "LinKabeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C3E8B323485A3E00FE9354 /* Debug */,
+				78C3E8B423485A3E00FE9354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C3E8B523485A3E00FE9354 /* Build configuration list for PBXNativeTarget "LinKabeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C3E8B623485A3E00FE9354 /* Debug */,
+				78C3E8B723485A3E00FE9354 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		78C3E88923485A3C00FE9354 /* LinKabe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78C3E88A23485A3C00FE9354 /* LinKabe.xcdatamodel */,
+			);
+			currentVersion = 78C3E88A23485A3C00FE9354 /* LinKabe.xcdatamodel */;
+			path = LinKabe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 78C3E87A23485A3C00FE9354 /* Project object */;
+}
