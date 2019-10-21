@@ -8,14 +8,21 @@
 
 import UIKit
 import CoreData
+import CoreLocation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    var locationManager = CLLocationManager()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        locationManager.delegate = self
+        locationManager.distanceFilter = .greatestFiniteMagnitude
+        locationManager.desiredAccuracy = .greatestFiniteMagnitude
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.startUpdatingLocation()
+        APIManager.shared.update()
         return true
     }
 
@@ -80,3 +87,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate: CLLocationManagerDelegate {
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        if let location = locations.first {
+            Utility.shared.location = location
+        }
+    }
+}

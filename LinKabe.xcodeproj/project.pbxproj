@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5219BC900C4C6375F865E10C /* Pods_LinKabe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0F7856E13DE1ACEEF56669 /* Pods_LinKabe.framework */; };
+		7831C421235C8DEB001F5F1D /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831C420235C8DEB001F5F1D /* RealmManager.swift */; };
+		7831C423235C92C9001F5F1D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831C422235C92C9001F5F1D /* Extension.swift */; };
+		7831C425235C9D75001F5F1D /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831C424235C9D75001F5F1D /* Repository.swift */; };
+		7831C427235C9E85001F5F1D /* RealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831C426235C9E85001F5F1D /* RealmRepository.swift */; };
+		7831C42A235CA5FE001F5F1D /* ShopRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831C429235CA5FE001F5F1D /* ShopRepository.swift */; };
+		7831C42D235CA746001F5F1D /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7831C42C235CA746001F5F1D /* Shop.swift */; };
+		785857BC23485F21008B7E99 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785857BB23485F21008B7E99 /* MapView.swift */; };
+		7863BEBF2352C7E600823362 /* LKBAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863BEBE2352C7E600823362 /* LKBAnnotationView.swift */; };
+		7863BEC42352D4BA00823362 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863BEC32352D4BA00823362 /* Utility.swift */; };
 		78C3E88623485A3C00FE9354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E88523485A3C00FE9354 /* AppDelegate.swift */; };
 		78C3E88823485A3C00FE9354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E88723485A3C00FE9354 /* SceneDelegate.swift */; };
-		78C3E88B23485A3C00FE9354 /* LinKabe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E88923485A3C00FE9354 /* LinKabe.xcdatamodeld */; };
 		78C3E88D23485A3C00FE9354 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E88C23485A3C00FE9354 /* ContentView.swift */; };
 		78C3E88F23485A3D00FE9354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C3E88E23485A3D00FE9354 /* Assets.xcassets */; };
 		78C3E89223485A3D00FE9354 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C3E89123485A3D00FE9354 /* Preview Assets.xcassets */; };
 		78C3E89523485A3D00FE9354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C3E89323485A3D00FE9354 /* LaunchScreen.storyboard */; };
 		78C3E8A023485A3E00FE9354 /* LinKabeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E89F23485A3E00FE9354 /* LinKabeTests.swift */; };
 		78C3E8AB23485A3E00FE9354 /* LinKabeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E8AA23485A3E00FE9354 /* LinKabeUITests.swift */; };
+		78FF72E1235C3E740092FBD2 /* ShopObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF72E0235C3E740092FBD2 /* ShopObject.swift */; };
+		78FF72E3235C41C10092FBD2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF72E2235C41C10092FBD2 /* APIManager.swift */; };
+		BA36E25D0E2E1BB620CB51DF /* Pods_LinKabeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3238E1C4258EB2B7DFF78F /* Pods_LinKabeTests.framework */; };
+		FEC7151B3C46773537AF998C /* Pods_LinKabeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C69FCA5BCEDA73AE90EC3D0 /* Pods_LinKabeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +49,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0F7856E13DE1ACEEF56669 /* Pods_LinKabe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinKabe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3238E1C4258EB2B7DFF78F /* Pods_LinKabeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinKabeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		101D45E90F020A54E7905B4D /* Pods-LinKabe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinKabe.debug.xcconfig"; path = "Target Support Files/Pods-LinKabe/Pods-LinKabe.debug.xcconfig"; sourceTree = "<group>"; };
+		1C69FCA5BCEDA73AE90EC3D0 /* Pods_LinKabeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinKabeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C30AAB3F174474BDF111319 /* Pods-LinKabeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinKabeTests.debug.xcconfig"; path = "Target Support Files/Pods-LinKabeTests/Pods-LinKabeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F9BE54B7FAEE344C262B7C1 /* Pods-LinKabeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinKabeUITests.release.xcconfig"; path = "Target Support Files/Pods-LinKabeUITests/Pods-LinKabeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7831C420235C8DEB001F5F1D /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		7831C422235C92C9001F5F1D /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		7831C424235C9D75001F5F1D /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		7831C426235C9E85001F5F1D /* RealmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmRepository.swift; sourceTree = "<group>"; };
+		7831C429235CA5FE001F5F1D /* ShopRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopRepository.swift; sourceTree = "<group>"; };
+		7831C42C235CA746001F5F1D /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		785857BB23485F21008B7E99 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7863BEBE2352C7E600823362 /* LKBAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKBAnnotationView.swift; sourceTree = "<group>"; };
+		7863BEC32352D4BA00823362 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		78C3E88223485A3C00FE9354 /* LinKabe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinKabe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C3E88523485A3C00FE9354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78C3E88723485A3C00FE9354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		78C3E88A23485A3C00FE9354 /* LinKabe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LinKabe.xcdatamodel; sourceTree = "<group>"; };
 		78C3E88C23485A3C00FE9354 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		78C3E88E23485A3D00FE9354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78C3E89123485A3D00FE9354 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,6 +78,11 @@
 		78C3E8A623485A3E00FE9354 /* LinKabeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinKabeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C3E8AA23485A3E00FE9354 /* LinKabeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinKabeUITests.swift; sourceTree = "<group>"; };
 		78C3E8AC23485A3E00FE9354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78FF72E0235C3E740092FBD2 /* ShopObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopObject.swift; sourceTree = "<group>"; };
+		78FF72E2235C41C10092FBD2 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		C2869CBE8B877A93BD926103 /* Pods-LinKabeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinKabeTests.release.xcconfig"; path = "Target Support Files/Pods-LinKabeTests/Pods-LinKabeTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5B558DBE913595F59D8F4E5 /* Pods-LinKabeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinKabeUITests.debug.xcconfig"; path = "Target Support Files/Pods-LinKabeUITests/Pods-LinKabeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE8DB7F3F84A2F799ACBE322 /* Pods-LinKabe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinKabe.release.xcconfig"; path = "Target Support Files/Pods-LinKabe/Pods-LinKabe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5219BC900C4C6375F865E10C /* Pods_LinKabe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA36E25D0E2E1BB620CB51DF /* Pods_LinKabeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +106,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC7151B3C46773537AF998C /* Pods_LinKabeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6929438E55780C4FF5682E7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				101D45E90F020A54E7905B4D /* Pods-LinKabe.debug.xcconfig */,
+				FE8DB7F3F84A2F799ACBE322 /* Pods-LinKabe.release.xcconfig */,
+				3C30AAB3F174474BDF111319 /* Pods-LinKabeTests.debug.xcconfig */,
+				C2869CBE8B877A93BD926103 /* Pods-LinKabeTests.release.xcconfig */,
+				C5B558DBE913595F59D8F4E5 /* Pods-LinKabeUITests.debug.xcconfig */,
+				3F9BE54B7FAEE344C262B7C1 /* Pods-LinKabeUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7831C428235CA5E0001F5F1D /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7831C42B235CA634001F5F1D /* Shop */,
+				7831C424235C9D75001F5F1D /* Repository.swift */,
+				7831C426235C9E85001F5F1D /* RealmRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		7831C42B235CA634001F5F1D /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				78FF72E0235C3E740092FBD2 /* ShopObject.swift */,
+				7831C429235CA5FE001F5F1D /* ShopRepository.swift */,
+				7831C42C235CA746001F5F1D /* Shop.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		7831C42E235CA8D5001F5F1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78C3E88C23485A3C00FE9354 /* ContentView.swift */,
+				785857BB23485F21008B7E99 /* MapView.swift */,
+				7863BEBE2352C7E600823362 /* LKBAnnotationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7831C42F235CA8EF001F5F1D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				78FF72E2235C41C10092FBD2 /* APIManager.swift */,
+				7831C420235C8DEB001F5F1D /* RealmManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7831C430235CA94B001F5F1D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7863BEC32352D4BA00823362 /* Utility.swift */,
+				7831C422235C92C9001F5F1D /* Extension.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		78C3E87923485A3C00FE9354 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +181,8 @@
 				78C3E89E23485A3E00FE9354 /* LinKabeTests */,
 				78C3E8A923485A3E00FE9354 /* LinKabeUITests */,
 				78C3E88323485A3C00FE9354 /* Products */,
+				6929438E55780C4FF5682E7D /* Pods */,
+				F413FBEED377972321DF46EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +199,15 @@
 		78C3E88423485A3C00FE9354 /* LinKabe */ = {
 			isa = PBXGroup;
 			children = (
+				7831C42E235CA8D5001F5F1D /* View */,
+				7831C42F235CA8EF001F5F1D /* Manager */,
+				7831C430235CA94B001F5F1D /* Utility */,
+				7831C428235CA5E0001F5F1D /* Repository */,
 				78C3E88523485A3C00FE9354 /* AppDelegate.swift */,
 				78C3E88723485A3C00FE9354 /* SceneDelegate.swift */,
-				78C3E88C23485A3C00FE9354 /* ContentView.swift */,
 				78C3E88E23485A3D00FE9354 /* Assets.xcassets */,
 				78C3E89323485A3D00FE9354 /* LaunchScreen.storyboard */,
 				78C3E89623485A3D00FE9354 /* Info.plist */,
-				78C3E88923485A3C00FE9354 /* LinKabe.xcdatamodeld */,
 				78C3E89023485A3D00FE9354 /* Preview Content */,
 			);
 			path = LinKabe;
@@ -139,6 +239,16 @@
 			path = LinKabeUITests;
 			sourceTree = "<group>";
 		};
+		F413FBEED377972321DF46EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B0F7856E13DE1ACEEF56669 /* Pods_LinKabe.framework */,
+				0F3238E1C4258EB2B7DFF78F /* Pods_LinKabeTests.framework */,
+				1C69FCA5BCEDA73AE90EC3D0 /* Pods_LinKabeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78C3E8AF23485A3E00FE9354 /* Build configuration list for PBXNativeTarget "LinKabe" */;
 			buildPhases = (
+				9881D770166C65717A1558B1 /* [CP] Check Pods Manifest.lock */,
 				78C3E87E23485A3C00FE9354 /* Sources */,
 				78C3E87F23485A3C00FE9354 /* Frameworks */,
 				78C3E88023485A3C00FE9354 /* Resources */,
+				3AAA0265B44C37015BB68F0C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78C3E8B223485A3E00FE9354 /* Build configuration list for PBXNativeTarget "LinKabeTests" */;
 			buildPhases = (
+				2903F4E5E64C6E1848F51B83 /* [CP] Check Pods Manifest.lock */,
 				78C3E89723485A3E00FE9354 /* Sources */,
 				78C3E89823485A3E00FE9354 /* Frameworks */,
 				78C3E89923485A3E00FE9354 /* Resources */,
@@ -181,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78C3E8B523485A3E00FE9354 /* Build configuration list for PBXNativeTarget "LinKabeUITests" */;
 			buildPhases = (
+				9F4DC3EE7A621FA92647586C /* [CP] Check Pods Manifest.lock */,
 				78C3E8A223485A3E00FE9354 /* Sources */,
 				78C3E8A323485A3E00FE9354 /* Frameworks */,
 				78C3E8A423485A3E00FE9354 /* Resources */,
@@ -265,15 +379,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2903F4E5E64C6E1848F51B83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinKabeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AAA0265B44C37015BB68F0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LinKabe/Pods-LinKabe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LinKabe/Pods-LinKabe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LinKabe/Pods-LinKabe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9881D770166C65717A1558B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinKabe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F4DC3EE7A621FA92647586C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinKabeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		78C3E87E23485A3C00FE9354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C3E88B23485A3C00FE9354 /* LinKabe.xcdatamodeld in Sources */,
+				7863BEC42352D4BA00823362 /* Utility.swift in Sources */,
+				7863BEBF2352C7E600823362 /* LKBAnnotationView.swift in Sources */,
+				7831C42D235CA746001F5F1D /* Shop.swift in Sources */,
+				78FF72E3235C41C10092FBD2 /* APIManager.swift in Sources */,
+				7831C423235C92C9001F5F1D /* Extension.swift in Sources */,
 				78C3E88623485A3C00FE9354 /* AppDelegate.swift in Sources */,
+				785857BC23485F21008B7E99 /* MapView.swift in Sources */,
 				78C3E88D23485A3C00FE9354 /* ContentView.swift in Sources */,
+				7831C427235C9E85001F5F1D /* RealmRepository.swift in Sources */,
+				7831C42A235CA5FE001F5F1D /* ShopRepository.swift in Sources */,
+				7831C421235C8DEB001F5F1D /* RealmManager.swift in Sources */,
 				78C3E88823485A3C00FE9354 /* SceneDelegate.swift in Sources */,
+				78FF72E1235C3E740092FBD2 /* ShopObject.swift in Sources */,
+				7831C425235C9D75001F5F1D /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +646,7 @@
 		};
 		78C3E8B023485A3E00FE9354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101D45E90F020A54E7905B4D /* Pods-LinKabe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +667,7 @@
 		};
 		78C3E8B123485A3E00FE9354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8DB7F3F84A2F799ACBE322 /* Pods-LinKabe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +688,7 @@
 		};
 		78C3E8B323485A3E00FE9354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C30AAB3F174474BDF111319 /* Pods-LinKabeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +711,7 @@
 		};
 		78C3E8B423485A3E00FE9354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2869CBE8B877A93BD926103 /* Pods-LinKabeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +734,7 @@
 		};
 		78C3E8B623485A3E00FE9354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B558DBE913595F59D8F4E5 /* Pods-LinKabeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +755,7 @@
 		};
 		78C3E8B723485A3E00FE9354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F9BE54B7FAEE344C262B7C1 /* Pods-LinKabeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -598,19 +814,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		78C3E88923485A3C00FE9354 /* LinKabe.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				78C3E88A23485A3C00FE9354 /* LinKabe.xcdatamodel */,
-			);
-			currentVersion = 78C3E88A23485A3C00FE9354 /* LinKabe.xcdatamodel */;
-			path = LinKabe.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 78C3E87A23485A3C00FE9354 /* Project object */;
 }
