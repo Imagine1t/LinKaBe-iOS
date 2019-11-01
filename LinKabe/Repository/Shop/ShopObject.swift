@@ -9,24 +9,24 @@ import RealmSwift
 import SwiftyJSON
 
 class ShopObject: Object {
-    dynamic var id: String = ""
-    dynamic var name: String = ""
-    dynamic var long: Double = 0
-    dynamic var lat: Double = 0
-    dynamic var address: String = ""
-    dynamic var city: String = ""
+    @objc dynamic var id: String = ""
+    @objc dynamic var name: String = ""
+    @objc dynamic var long: Double = 0
+    @objc dynamic var lat: Double = 0
+    @objc dynamic var address: String = ""
+    @objc dynamic var city: String = ""
     dynamic var limitedTime: Bool?
     dynamic var openTime: String?
-    dynamic var tasty: Float?
-    dynamic var cheap: Float?
-    dynamic var seat: Float?
+    dynamic var tasty: Double?
+    dynamic var cheap: Double?
+    dynamic var seat: Double?
     dynamic var mrt: String?
-    dynamic var quiet: Float?
-    dynamic var music: Float?
+    dynamic var quiet: Double?
+    dynamic var music: Double?
     dynamic var socket: String?
-    dynamic var wifi: Float?
+    dynamic var wifi: Double?
     dynamic var standingDesk: String?
-    dynamic var url: URL?
+    dynamic var url: String?
     /* v1.2 api format
      {
        "longitude" : "121.51528650",

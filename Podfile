@@ -8,8 +8,9 @@ target 'LinKabe' do
   # Pods for LinKabe
   pod 'PromiseKit/Alamofire', '= 6.11.0'
   pod 'SwiftyJSON', '= 5.0.0'
-  pod 'RealmSwift', '~> 3.17'
+  pod 'RealmSwift', '= 3.20.0'
   pod 'ObjectMapper'
+  pod 'Moya'
 
   target 'LinKabeTests' do
     inherit! :search_paths

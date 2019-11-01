@@ -17,6 +17,9 @@
 		785857BC23485F21008B7E99 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785857BB23485F21008B7E99 /* MapView.swift */; };
 		7863BEBF2352C7E600823362 /* LKBAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863BEBE2352C7E600823362 /* LKBAnnotationView.swift */; };
 		7863BEC42352D4BA00823362 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863BEC32352D4BA00823362 /* Utility.swift */; };
+		7882D0F2235ECABE006A5E12 /* LKSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7882D0F1235ECABE006A5E12 /* LKSettings.swift */; };
+		7882D0F5235EEEC0006A5E12 /* CafeNomadRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7882D0F4235EEEC0006A5E12 /* CafeNomadRouter.swift */; };
+		7882D0F7235EF21A006A5E12 /* CafeNomadProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7882D0F6235EF21A006A5E12 /* CafeNomadProvider.swift */; };
 		78C3E88623485A3C00FE9354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E88523485A3C00FE9354 /* AppDelegate.swift */; };
 		78C3E88823485A3C00FE9354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E88723485A3C00FE9354 /* SceneDelegate.swift */; };
 		78C3E88D23485A3C00FE9354 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C3E88C23485A3C00FE9354 /* ContentView.swift */; };
@@ -64,6 +67,9 @@
 		785857BB23485F21008B7E99 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7863BEBE2352C7E600823362 /* LKBAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKBAnnotationView.swift; sourceTree = "<group>"; };
 		7863BEC32352D4BA00823362 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		7882D0F1235ECABE006A5E12 /* LKSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKSettings.swift; sourceTree = "<group>"; };
+		7882D0F4235EEEC0006A5E12 /* CafeNomadRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeNomadRouter.swift; sourceTree = "<group>"; };
+		7882D0F6235EF21A006A5E12 /* CafeNomadProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeNomadProvider.swift; sourceTree = "<group>"; };
 		78C3E88223485A3C00FE9354 /* LinKabe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinKabe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C3E88523485A3C00FE9354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78C3E88723485A3C00FE9354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +138,7 @@
 				7831C42B235CA634001F5F1D /* Shop */,
 				7831C424235C9D75001F5F1D /* Repository.swift */,
 				7831C426235C9E85001F5F1D /* RealmRepository.swift */,
+				7831C420235C8DEB001F5F1D /* RealmManager.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -156,13 +163,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		7831C42F235CA8EF001F5F1D /* Manager */ = {
+		7831C42F235CA8EF001F5F1D /* Network */ = {
 			isa = PBXGroup;
 			children = (
 				78FF72E2235C41C10092FBD2 /* APIManager.swift */,
-				7831C420235C8DEB001F5F1D /* RealmManager.swift */,
+				7882D0F4235EEEC0006A5E12 /* CafeNomadRouter.swift */,
+				7882D0F6235EF21A006A5E12 /* CafeNomadProvider.swift */,
 			);
-			path = Manager;
+			path = Network;
 			sourceTree = "<group>";
 		};
 		7831C430235CA94B001F5F1D /* Utility */ = {
@@ -170,6 +178,7 @@
 			children = (
 				7863BEC32352D4BA00823362 /* Utility.swift */,
 				7831C422235C92C9001F5F1D /* Extension.swift */,
+				7882D0F1235ECABE006A5E12 /* LKSettings.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -200,7 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				7831C42E235CA8D5001F5F1D /* View */,
-				7831C42F235CA8EF001F5F1D /* Manager */,
+				7831C42F235CA8EF001F5F1D /* Network */,
 				7831C430235CA94B001F5F1D /* Utility */,
 				7831C428235CA5E0001F5F1D /* Repository */,
 				78C3E88523485A3C00FE9354 /* AppDelegate.swift */,
@@ -481,9 +490,12 @@
 				7831C427235C9E85001F5F1D /* RealmRepository.swift in Sources */,
 				7831C42A235CA5FE001F5F1D /* ShopRepository.swift in Sources */,
 				7831C421235C8DEB001F5F1D /* RealmManager.swift in Sources */,
+				7882D0F2235ECABE006A5E12 /* LKSettings.swift in Sources */,
 				78C3E88823485A3C00FE9354 /* SceneDelegate.swift in Sources */,
 				78FF72E1235C3E740092FBD2 /* ShopObject.swift in Sources */,
+				7882D0F7235EF21A006A5E12 /* CafeNomadProvider.swift in Sources */,
 				7831C425235C9D75001F5F1D /* Repository.swift in Sources */,
+				7882D0F5235EEEC0006A5E12 /* CafeNomadRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

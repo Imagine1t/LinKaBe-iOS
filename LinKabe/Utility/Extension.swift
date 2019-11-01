@@ -9,7 +9,7 @@
 import Foundation
 
 extension URL {
-    static func databasePath(with id: String) -> URL {
+    static func databasePath() -> URL {
         var forDomain: FileManager.SearchPathDirectory
         #if DEBUG
         forDomain = .documentDirectory
@@ -17,6 +17,6 @@ extension URL {
         forDomain = .libraryDirectory
         #endif
         let path = try! FileManager.default.url(for: forDomain, in: .userDomainMask, appropriateFor: nil, create: false)
-        return path.appendingPathComponent("\(id).realm")
+        return path.appendingPathComponent("LinKabe.realm")
     }
 }

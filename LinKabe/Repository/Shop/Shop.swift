@@ -18,14 +18,14 @@ class Shop: Mappable {
     var city: String = ""
     var limitedTime: Bool?
     var openTime: String?
-    var tasty: Float?
-    var cheap: Float?
-    var seat: Float?
+    var tasty: Double?
+    var cheap: Double?
+    var seat: Double?
     var mrt: String?
-    var quiet: Float?
-    var music: Float?
+    var quiet: Double?
+    var music: Double?
     var socket: String?
-    var wifi: Float?
+    var wifi: Double?
     var standingDesk: String?
     var url: URL?
     

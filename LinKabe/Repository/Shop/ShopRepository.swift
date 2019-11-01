@@ -31,7 +31,7 @@ class ShopRepository: RealmRepository<String, Shop, ShopObject> {
         object.socket = entity.socket
         object.wifi = entity.wifi
         object.standingDesk = entity.standingDesk
-        object.url = entity.url
+        object.url = entity.url?.absoluteString
         return object
     }
     
